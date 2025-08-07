@@ -1,4 +1,4 @@
-import { Uniform, Vector2 } from "three";
+const { Uniform, Vector2 } = window.THREE;
 import { Effect } from "./Effect.js";
 
 import fragmentShader from "./glsl/lens-distortion.frag";

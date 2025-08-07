@@ -1,4 +1,4 @@
-import {
+const {
 	CubeTextureLoader,
 	FogExp2,
 	LoadingManager,
@@ -6,7 +6,7 @@ import {
 	Scene,
 	SRGBColorSpace,
 	WebGLRenderer
-} from "three";
+} = window.THREE;
 
 import {
 	PixelationEffect,

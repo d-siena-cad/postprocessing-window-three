@@ -1,4 +1,4 @@
-import { SRGBColorSpace, UnsignedByteType, WebGLRenderTarget } from "three";
+const { SRGBColorSpace, UnsignedByteType, WebGLRenderTarget } = window.THREE;
 import { Resolution } from "../core/Resolution.js";
 import { CopyMaterial } from "../materials/CopyMaterial.js";
 import { GaussianBlurMaterial } from "../materials/GaussianBlurMaterial.js";

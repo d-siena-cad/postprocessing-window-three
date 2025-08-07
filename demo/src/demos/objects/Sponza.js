@@ -1,4 +1,4 @@
-import { AmbientLight, CameraHelper, DirectionalLight } from "three";
+const { AmbientLight, CameraHelper, DirectionalLight } = window.THREE;
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { TextureUtils } from "../../utils/TextureUtils";
 

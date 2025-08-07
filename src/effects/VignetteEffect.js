@@ -1,4 +1,4 @@
-import { Uniform } from "three";
+const { Uniform } = window.THREE;
 import { VignetteTechnique } from "../enums/VignetteTechnique.js";
 import { Effect } from "./Effect.js";
 

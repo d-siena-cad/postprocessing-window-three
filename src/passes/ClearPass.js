@@ -1,4 +1,4 @@
-import { Color } from "three";
+const { Color } = window.THREE;
 import { Pass } from "./Pass.js";
 
 const color = /* @__PURE__ */ new Color();

@@ -1,4 +1,4 @@
-import {
+const {
 	BasicDepthPacking,
 	Color,
 	LinearFilter,
@@ -7,7 +7,7 @@ import {
 	Texture,
 	Uniform,
 	WebGLRenderTarget
-} from "three";
+} = window.THREE;
 
 import { BlendFunction } from "../enums/BlendFunction.js";
 import { EdgeDetectionMode } from "../enums/EdgeDetectionMode.js";

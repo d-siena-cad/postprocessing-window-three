@@ -1,4 +1,4 @@
-import {
+const {
 	BasicDepthPacking,
 	BufferAttribute,
 	BufferGeometry,
@@ -8,7 +8,7 @@ import {
 	Scene,
 	Texture,
 	WebGLRenderTarget
-} from "three";
+} = window.THREE;
 
 const fullscreenGeometry = /* @__PURE__ */ (() => {
 

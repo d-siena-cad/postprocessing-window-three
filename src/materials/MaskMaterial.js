@@ -1,4 +1,4 @@
-import { NoBlending, ShaderMaterial, Uniform, UnsignedByteType } from "three";
+const { NoBlending, ShaderMaterial, Uniform, UnsignedByteType } = window.THREE;
 import { ColorChannel } from "../enums/ColorChannel.js";
 import { MaskFunction } from "../enums/MaskFunction.js";
 

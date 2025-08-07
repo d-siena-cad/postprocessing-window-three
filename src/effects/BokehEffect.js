@@ -1,4 +1,4 @@
-import { Uniform } from "three";
+const { Uniform } = window.THREE;
 import { EffectAttribute } from "../enums/EffectAttribute.js";
 import { Effect } from "./Effect.js";
 

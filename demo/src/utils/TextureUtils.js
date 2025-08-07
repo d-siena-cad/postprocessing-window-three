@@ -1,4 +1,4 @@
-import { Mesh } from "three";
+const { Mesh } = window.THREE;
 
 /**
  * A collection of texture utility functions.

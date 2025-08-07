@@ -1,4 +1,4 @@
-import {
+const {
 	CubeTextureLoader,
 	LoadingManager,
 	Mesh,
@@ -10,7 +10,7 @@ import {
 	Vector3,
 	VSMShadowMap,
 	WebGLRenderer
-} from "three";
+} = window.THREE;
 
 import {
 	CopyPass,

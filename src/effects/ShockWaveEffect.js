@@ -1,4 +1,4 @@
-import { Uniform, Vector2, Vector3 } from "three";
+const { Uniform, Vector2, Vector3 } = window.THREE;
 import { Effect } from "./Effect.js";
 
 import fragmentShader from "./glsl/shock-wave.frag";

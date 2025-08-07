@@ -1,4 +1,4 @@
-import {
+const {
 	ClampToEdgeWrapping,
 	LinearFilter,
 	LoadingManager,
@@ -10,7 +10,7 @@ import {
 	SRGBColorSpace,
 	TextureLoader,
 	WebGLRenderer
-} from "three";
+} = window.THREE;
 
 import {
 	BlendFunction,

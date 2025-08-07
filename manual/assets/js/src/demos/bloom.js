@@ -1,4 +1,4 @@
-import {
+const {
 	CubeTextureLoader,
 	FogExp2,
 	Group,
@@ -12,7 +12,7 @@ import {
 	SRGBColorSpace,
 	Vector2,
 	WebGLRenderer
-} from "three";
+} = window.THREE;
 
 import {
 	BlendFunction,

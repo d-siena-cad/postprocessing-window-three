@@ -1,4 +1,4 @@
-import {
+const {
 	AnimationMixer,
 	Color,
 	CubeTextureLoader,
@@ -12,7 +12,7 @@ import {
 	Vector2,
 	VSMShadowMap,
 	WebGLRenderer
-} from "three";
+} = window.THREE;
 
 import {
 	BlendFunction,

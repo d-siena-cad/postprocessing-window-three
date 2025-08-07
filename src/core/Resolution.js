@@ -1,4 +1,4 @@
-import { EventDispatcher, Vector2 } from "three";
+const { EventDispatcher, Vector2 } = window.THREE;
 
 const AUTO_SIZE = -1;
 

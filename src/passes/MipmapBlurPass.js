@@ -1,4 +1,4 @@
-import { SRGBColorSpace, UnsignedByteType, Vector2, WebGLRenderTarget } from "three";
+const { SRGBColorSpace, UnsignedByteType, Vector2, WebGLRenderTarget } = window.THREE;
 import { DownsamplingMaterial } from "../materials/DownsamplingMaterial.js";
 import { UpsamplingMaterial } from "../materials/UpsamplingMaterial.js";
 import { Pass } from "./Pass.js";

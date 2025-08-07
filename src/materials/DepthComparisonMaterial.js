@@ -1,4 +1,4 @@
-import { NoBlending, PerspectiveCamera, RGBADepthPacking, ShaderMaterial, Uniform } from "three";
+const { NoBlending, PerspectiveCamera, RGBADepthPacking, ShaderMaterial, Uniform } = window.THREE;
 
 import fragmentShader from "./glsl/depth-comparison.frag";
 import vertexShader from "./glsl/depth-comparison.vert";

@@ -1,4 +1,4 @@
-import { Uniform, Vector2, Vector4 } from "three";
+const { Uniform, Vector2, Vector4 } = window.THREE;
 import { KernelSize } from "../enums/KernelSize.js";
 import { KawaseBlurMaterial } from "./KawaseBlurMaterial.js";
 

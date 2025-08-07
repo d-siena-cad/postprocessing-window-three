@@ -1,4 +1,4 @@
-import {
+const {
 	AmbientLight,
 	BoxGeometry,
 	CircleGeometry,
@@ -10,7 +10,7 @@ import {
 	MeshStandardMaterial,
 	OctahedronGeometry,
 	SphereGeometry
-} from "three";
+} = window.THREE;
 
 /**
  * Creates lights.

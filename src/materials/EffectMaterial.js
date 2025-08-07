@@ -1,4 +1,4 @@
-import { BasicDepthPacking, NoBlending, PerspectiveCamera, REVISION, ShaderMaterial, Uniform, Vector2 } from "three";
+const { BasicDepthPacking, NoBlending, PerspectiveCamera, REVISION, ShaderMaterial, Uniform, Vector2 } = window.THREE;
 import { EffectShaderSection as Section } from "../enums/EffectShaderSection.js";
 
 import fragmentTemplate from "./glsl/effect.frag";

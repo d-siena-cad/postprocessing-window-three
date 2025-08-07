@@ -1,4 +1,4 @@
-import {
+const {
 	AlwaysDepth,
 	BasicDepthPacking,
 	EqualDepth,
@@ -13,7 +13,7 @@ import {
 	ShaderMaterial,
 	Uniform,
 	Vector2
-} from "three";
+} = window.THREE;
 
 import { DepthTestStrategy } from "../enums/DepthTestStrategy.js";
 

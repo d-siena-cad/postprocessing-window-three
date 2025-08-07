@@ -1,4 +1,4 @@
-import {
+const {
 	BasicDepthPacking,
 	EventDispatcher,
 	LinearSRGBColorSpace,
@@ -6,7 +6,7 @@ import {
 	NoColorSpace,
 	Texture,
 	WebGLRenderTarget
-} from "three";
+} = window.THREE;
 
 import { BlendFunction } from "../enums/BlendFunction.js";
 import { EffectAttribute } from "../enums/EffectAttribute.js";

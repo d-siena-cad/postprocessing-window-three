@@ -1,4 +1,4 @@
-import {
+const {
 	AmbientLight,
 	Color,
 	Fog,
@@ -8,7 +8,7 @@ import {
 	PerspectiveCamera,
 	PointLight,
 	SphereGeometry
-} from "three";
+} = window.THREE;
 
 import { SpatialControls } from "spatial-controls";
 import { calculateVerticalFoV } from "three-demo";

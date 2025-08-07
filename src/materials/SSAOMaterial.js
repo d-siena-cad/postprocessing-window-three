@@ -1,4 +1,4 @@
-import { BasicDepthPacking, Matrix4, NoBlending, PerspectiveCamera, ShaderMaterial, Uniform, Vector2 } from "three";
+const { BasicDepthPacking, Matrix4, NoBlending, PerspectiveCamera, ShaderMaterial, Uniform, Vector2 } = window.THREE;
 import { orthographicDepthToViewZ } from "../utils/orthographicDepthToViewZ.js";
 import { viewZToOrthographicDepth } from "../utils/viewZToOrthographicDepth.js";
 

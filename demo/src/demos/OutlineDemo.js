@@ -1,4 +1,4 @@
-import {
+const {
 	AmbientLight,
 	AnimationMixer,
 	BoxGeometry,
@@ -17,7 +17,7 @@ import {
 	TextureLoader,
 	Vector2,
 	SRGBColorSpace
-} from "three";
+} = window.THREE;
 
 import { ControlMode, SpatialControls } from "spatial-controls";
 import { calculateVerticalFoV } from "three-demo";

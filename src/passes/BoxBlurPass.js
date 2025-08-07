@@ -1,4 +1,4 @@
-import { BasicDepthPacking, SRGBColorSpace, UnsignedByteType, WebGLRenderTarget } from "three";
+const { BasicDepthPacking, SRGBColorSpace, UnsignedByteType, WebGLRenderTarget } = window.THREE;
 import { Resolution } from "../core/Resolution.js";
 import { CopyMaterial } from "../materials/CopyMaterial.js";
 import { BoxBlurMaterial } from "../materials/BoxBlurMaterial.js";

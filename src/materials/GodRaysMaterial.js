@@ -1,4 +1,4 @@
-import { NoBlending, ShaderMaterial, Uniform } from "three";
+const { NoBlending, ShaderMaterial, Uniform } = window.THREE;
 
 import fragmentShader from "./glsl/convolution.god-rays.frag";
 import vertexShader from "./glsl/common.vert";

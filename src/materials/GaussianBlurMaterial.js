@@ -1,4 +1,4 @@
-import { NoBlending, ShaderMaterial, Uniform, Vector2 } from "three";
+const { NoBlending, ShaderMaterial, Uniform, Vector2 } = window.THREE;
 import { GaussKernel } from "../core/GaussKernel.js";
 
 import fragmentShader from "./glsl/convolution.gaussian.frag";

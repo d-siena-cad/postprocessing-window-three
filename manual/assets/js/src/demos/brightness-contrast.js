@@ -1,4 +1,4 @@
-import {
+const {
 	LoadingManager,
 	PerspectiveCamera,
 	PlaneGeometry,
@@ -8,7 +8,7 @@ import {
 	SRGBColorSpace,
 	TextureLoader,
 	WebGLRenderer
-} from "three";
+} = window.THREE;
 
 import {
 	BlendFunction,

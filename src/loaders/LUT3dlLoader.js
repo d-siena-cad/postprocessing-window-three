@@ -1,4 +1,4 @@
-import { FileLoader, Loader, LoadingManager } from "three";
+const { FileLoader, Loader, LoadingManager } = window.THREE;
 import { LookupTexture } from "../textures/lut/LookupTexture.js";
 
 /**

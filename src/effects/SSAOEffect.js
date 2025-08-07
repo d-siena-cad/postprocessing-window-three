@@ -1,4 +1,4 @@
-import { BasicDepthPacking, Color, RepeatWrapping, RGBAFormat, Uniform, WebGLRenderTarget } from "three";
+const { BasicDepthPacking, Color, RepeatWrapping, RGBAFormat, Uniform, WebGLRenderTarget } = window.THREE;
 import { Resolution } from "../core/Resolution.js";
 import { BlendFunction } from "../enums/BlendFunction.js";
 import { EffectAttribute } from "../enums/EffectAttribute.js";

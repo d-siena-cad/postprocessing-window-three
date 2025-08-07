@@ -1,4 +1,4 @@
-import { SRGBColorSpace, Uniform, WebGLRenderTarget } from "three";
+const { SRGBColorSpace, Uniform, WebGLRenderTarget } = window.THREE;
 import { Resolution } from "../core/Resolution.js";
 import { BlendFunction } from "../enums/BlendFunction.js";
 import { KernelSize } from "../enums/KernelSize.js";

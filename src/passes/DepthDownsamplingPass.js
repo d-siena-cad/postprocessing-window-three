@@ -1,4 +1,4 @@
-import { BasicDepthPacking, FloatType, NearestFilter, WebGLRenderTarget } from "three";
+const { BasicDepthPacking, FloatType, NearestFilter, WebGLRenderTarget } = window.THREE;
 import { Resolution } from "../core/Resolution.js";
 import { DepthDownsamplingMaterial } from "../materials/DepthDownsamplingMaterial.js";
 import { Pass } from "./Pass.js";

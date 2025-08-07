@@ -1,4 +1,4 @@
-import {
+const {
 	Box3,
 	BoxGeometry,
 	Group,
@@ -8,7 +8,7 @@ import {
 	Quaternion,
 	Sphere,
 	Vector3
-} from "three";
+} = window.THREE;
 
 /**
  * Creates lights.

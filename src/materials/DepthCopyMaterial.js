@@ -1,4 +1,4 @@
-import { BasicDepthPacking, NoBlending, ShaderMaterial, Uniform, Vector2 } from "three";
+const { BasicDepthPacking, NoBlending, ShaderMaterial, Uniform, Vector2 } = window.THREE;
 import { DepthCopyMode } from "../enums/DepthCopyMode.js";
 
 import fragmentShader from "./glsl/depth-copy.frag";

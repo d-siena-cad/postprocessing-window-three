@@ -1,4 +1,4 @@
-import { Uniform, UnsignedByteType } from "three";
+const { Uniform, UnsignedByteType } = window.THREE;
 import { ColorChannel } from "../enums/ColorChannel.js";
 import { Effect } from "./Effect.js";
 

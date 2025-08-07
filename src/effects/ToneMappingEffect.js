@@ -1,4 +1,4 @@
-import { LinearMipmapLinearFilter, REVISION, Uniform, WebGLRenderTarget } from "three";
+const { LinearMipmapLinearFilter, REVISION, Uniform, WebGLRenderTarget } = window.THREE;
 import { AdaptiveLuminancePass } from "../passes/AdaptiveLuminancePass.js";
 import { LuminancePass } from "../passes/LuminancePass.js";
 import { BlendFunction } from "../enums/BlendFunction.js";

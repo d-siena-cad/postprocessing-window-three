@@ -1,4 +1,4 @@
-import { Color, PerspectiveCamera } from "three";
+const { Color, PerspectiveCamera } = window.THREE;
 import { SpatialControls } from "spatial-controls";
 import { calculateVerticalFoV } from "three-demo";
 import { ProgressManager } from "../utils/ProgressManager";

@@ -1,4 +1,4 @@
-import { SRGBColorSpace, Uniform } from "three";
+const { SRGBColorSpace, Uniform } = window.THREE;
 import { BlendFunction } from "../enums/BlendFunction.js";
 import { Effect } from "./Effect.js";
 

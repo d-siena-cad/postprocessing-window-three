@@ -1,4 +1,4 @@
-import { BoxGeometry, Group, Mesh, MeshBasicMaterial } from "three";
+const { BoxGeometry, Group, Mesh, MeshBasicMaterial } = window.THREE;
 
 /**
  * Creates a cubic cage.

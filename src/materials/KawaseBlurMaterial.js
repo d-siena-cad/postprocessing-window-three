@@ -1,4 +1,4 @@
-import { NoBlending, ShaderMaterial, Uniform, Vector4 } from "three";
+const { NoBlending, ShaderMaterial, Uniform, Vector4 } = window.THREE;
 import { KernelSize } from "../enums/KernelSize.js";
 
 import fragmentShader from "./glsl/convolution.kawase.frag";

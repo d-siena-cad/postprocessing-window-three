@@ -1,4 +1,4 @@
-import { NoBlending, REVISION, ShaderMaterial, Uniform } from "three";
+const { NoBlending, REVISION, ShaderMaterial, Uniform } = window.THREE;
 
 import fragmentShader from "./glsl/luminance.frag";
 import vertexShader from "./glsl/common.vert";

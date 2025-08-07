@@ -1,4 +1,4 @@
-import { NoBlending, ShaderMaterial, Uniform, Vector2 } from "three";
+const { NoBlending, ShaderMaterial, Uniform, Vector2 } = window.THREE;
 
 import fragmentShader from "./glsl/convolution.downsampling.frag";
 import vertexShader from "./glsl/convolution.downsampling.vert";

@@ -1,10 +1,10 @@
-import {
+const {
 	HalfFloatType,
 	PCFSoftShadowMap,
 	SRGBColorSpace,
 	Vector3,
 	WebGLRenderer
-} from "three";
+} = window.THREE;
 
 import { calculateVerticalFoV, DemoManager } from "three-demo";
 import { EffectComposer, OverrideMaterialManager } from "../../src";

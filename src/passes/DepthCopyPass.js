@@ -1,11 +1,11 @@
-import {
+const {
 	BasicDepthPacking,
 	FloatType,
 	NearestFilter,
 	RGBADepthPacking,
 	UnsignedByteType,
 	WebGLRenderTarget
-} from "three";
+} = window.THREE;
 
 import { DepthCopyMaterial } from "../materials/DepthCopyMaterial.js";
 import { Pass } from "./Pass.js";

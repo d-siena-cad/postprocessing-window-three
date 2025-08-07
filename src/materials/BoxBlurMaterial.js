@@ -1,4 +1,4 @@
-import { NoBlending, PerspectiveCamera, ShaderMaterial, Uniform, Vector2 } from "three";
+const { NoBlending, PerspectiveCamera, ShaderMaterial, Uniform, Vector2 } = window.THREE;
 import { orthographicDepthToViewZ } from "../utils/orthographicDepthToViewZ.js";
 import { viewZToOrthographicDepth } from "../utils/viewZToOrthographicDepth.js";
 

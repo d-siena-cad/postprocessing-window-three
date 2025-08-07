@@ -1,4 +1,4 @@
-import { BasicDepthPacking, FloatType, REVISION, RGBADepthPacking } from "three";
+const { BasicDepthPacking, FloatType, REVISION, RGBADepthPacking } = window.THREE;
 import { DepthCopyMode } from "../enums/DepthCopyMode.js";
 import { DepthCopyPass } from "./DepthCopyPass.js";
 

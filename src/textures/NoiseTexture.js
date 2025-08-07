@@ -1,10 +1,10 @@
-import {
+const {
 	DataTexture,
 	RedFormat,
 	RGFormat,
 	RGBAFormat,
 	UnsignedByteType
-} from "three";
+} = window.THREE;
 
 /**
  * Generates noise.

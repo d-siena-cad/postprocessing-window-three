@@ -1,4 +1,4 @@
-import { FloatType, HalfFloatType, Uniform } from "three";
+const { FloatType, HalfFloatType, Uniform } = window.THREE;
 import { BlendFunction } from "../enums/BlendFunction.js";
 import { Effect } from "./Effect.js";
 

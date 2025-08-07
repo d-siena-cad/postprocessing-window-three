@@ -1,4 +1,4 @@
-import {
+const {
 	BasicDepthPacking,
 	Color,
 	DepthTexture,
@@ -9,7 +9,7 @@ import {
 	Vector2,
 	Vector3,
 	WebGLRenderTarget
-} from "three";
+} = window.THREE;
 
 import { Resolution } from "../core/Resolution.js";
 import { BlendFunction } from "../enums/BlendFunction.js";

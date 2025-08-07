@@ -1,4 +1,4 @@
-import { LinearSRGBColorSpace } from "three";
+const { LinearSRGBColorSpace } = window.THREE;
 import { EffectAttribute } from "../enums/EffectAttribute.js";
 import { EffectShaderSection as Section } from "../enums/EffectShaderSection.js";
 

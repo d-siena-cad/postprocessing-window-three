@@ -1,4 +1,4 @@
-import { BasicDepthPacking, SRGBColorSpace, Uniform, UnsignedByteType, WebGLRenderTarget } from "three";
+const { BasicDepthPacking, SRGBColorSpace, Uniform, UnsignedByteType, WebGLRenderTarget } = window.THREE;
 import { Resolution } from "../core/Resolution.js";
 import { ColorChannel } from "../enums/ColorChannel.js";
 import { EffectAttribute } from "../enums/EffectAttribute.js";

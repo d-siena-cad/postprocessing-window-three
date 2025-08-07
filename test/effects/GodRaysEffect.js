@@ -1,5 +1,5 @@
 import test from "ava";
-import { Mesh } from "three";
+const { Mesh } = window.THREE;
 import { GodRaysEffect } from "postprocessing";
 
 test("can be created and destroyed", t => {

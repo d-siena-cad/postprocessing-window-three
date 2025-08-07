@@ -1,4 +1,4 @@
-import { Uniform, Vector2 } from "three";
+const { Uniform, Vector2 } = window.THREE;
 import { BlendFunction } from "../enums/BlendFunction.js";
 import { Effect } from "./Effect.js";
 

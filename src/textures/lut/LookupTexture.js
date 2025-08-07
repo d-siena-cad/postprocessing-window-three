@@ -1,4 +1,4 @@
-import {
+const {
 	Color,
 	ClampToEdgeWrapping,
 	DataTexture,
@@ -10,7 +10,7 @@ import {
 	SRGBColorSpace,
 	UnsignedByteType,
 	Vector3
-} from "three";
+} = window.THREE;
 
 import { LUTOperation } from "../../enums/LUTOperation.js";
 import { RawImageData } from "../RawImageData.js";

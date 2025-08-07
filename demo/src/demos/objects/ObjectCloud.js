@@ -1,4 +1,4 @@
-import {
+const {
 	BoxGeometry,
 	ConeGeometry,
 	Group,
@@ -6,7 +6,7 @@ import {
 	MeshPhongMaterial,
 	OctahedronGeometry,
 	SphereGeometry
-} from "three";
+} = window.THREE;
 
 /**
  * Creates an object cloud.

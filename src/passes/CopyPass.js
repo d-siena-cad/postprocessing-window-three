@@ -1,4 +1,4 @@
-import { LinearFilter, SRGBColorSpace, UnsignedByteType, WebGLRenderTarget } from "three";
+const { LinearFilter, SRGBColorSpace, UnsignedByteType, WebGLRenderTarget } = window.THREE;
 import { CopyMaterial } from "../materials/CopyMaterial.js";
 import { Pass } from "./Pass.js";
 

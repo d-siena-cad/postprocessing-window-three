@@ -1,4 +1,4 @@
-import { BasicDepthPacking, NoColorSpace, SRGBColorSpace, UnsignedByteType } from "three";
+const { BasicDepthPacking, NoColorSpace, SRGBColorSpace, UnsignedByteType } = window.THREE;
 import { EffectShaderData } from "../core/EffectShaderData.js";
 import { BlendFunction } from "../enums/BlendFunction.js";
 import { EffectAttribute } from "../enums/EffectAttribute.js";

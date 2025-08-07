@@ -1,4 +1,4 @@
-import {
+const {
 	CubeTextureLoader,
 	FogExp2,
 	LoadingManager,
@@ -7,7 +7,7 @@ import {
 	SRGBColorSpace,
 	Vector2,
 	WebGLRenderer
-} from "three";
+} = window.THREE;
 
 import {
 	ChromaticAberrationEffect,

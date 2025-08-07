@@ -1,4 +1,4 @@
-import { NearestFilter, WebGLRenderTarget } from "three";
+const { NearestFilter, WebGLRenderTarget } = window.THREE;
 import { AdaptiveLuminanceMaterial } from "../materials/AdaptiveLuminanceMaterial.js";
 import { CopyPass } from "./CopyPass.js";
 import { Pass } from "./Pass.js";

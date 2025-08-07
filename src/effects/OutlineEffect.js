@@ -1,4 +1,4 @@
-import { Color, RepeatWrapping, Uniform, UnsignedByteType, WebGLRenderTarget } from "three";
+const { Color, RepeatWrapping, Uniform, UnsignedByteType, WebGLRenderTarget } = window.THREE;
 import { Resolution } from "../core/Resolution.js";
 import { Selection } from "../core/Selection.js";
 import { BlendFunction } from "../enums/BlendFunction.js";

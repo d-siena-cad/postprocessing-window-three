@@ -1,4 +1,4 @@
-import { BasicDepthPacking, NoBlending, ShaderMaterial, Uniform, Vector2 } from "three";
+const { BasicDepthPacking, NoBlending, ShaderMaterial, Uniform, Vector2 } = window.THREE;
 
 import fragmentShader from "./glsl/depth-downsampling.frag";
 import vertexShader from "./glsl/depth-downsampling.vert";

@@ -1,5 +1,5 @@
 declare module "postprocessing" {
-	import {
+	const  {
 		Vector2,
 		WebGLRenderer,
 		Camera,
@@ -24,7 +24,7 @@ declare module "postprocessing" {
 		Data3DTexture,
 		BaseEvent,
 		CanvasTexture
-	} from "three";
+	} = window.THREE;
 
 	/**
 	 * Common events.

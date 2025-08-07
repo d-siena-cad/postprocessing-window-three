@@ -1,4 +1,4 @@
-import { SRGBColorSpace, Uniform, Vector2, WebGLRenderTarget } from "three";
+const { SRGBColorSpace, Uniform, Vector2, WebGLRenderTarget } = window.THREE;
 import { Resolution } from "../core/Resolution.js";
 import { KernelSize } from "../enums/KernelSize.js";
 import { TiltShiftBlurPass } from "../passes/TiltShiftBlurPass.js";

@@ -1,4 +1,4 @@
-import { UnsignedByteType } from "three";
+const { UnsignedByteType } = window.THREE;
 import { Pass } from "./Pass.js";
 
 /**

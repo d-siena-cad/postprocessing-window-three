@@ -1,4 +1,4 @@
-import { BasicDepthPacking, NoBlending, REVISION, ShaderMaterial, Uniform, Vector2 } from "three";
+const { BasicDepthPacking, NoBlending, REVISION, ShaderMaterial, Uniform, Vector2 } = window.THREE;
 import { EdgeDetectionMode } from "../enums/EdgeDetectionMode.js";
 
 import fragmentShader from "./glsl/edge-detection.frag";

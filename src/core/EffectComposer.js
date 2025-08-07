@@ -1,4 +1,4 @@
-import {
+const  {
 	DepthStencilFormat,
 	DepthTexture,
 	LinearFilter,
@@ -8,7 +8,7 @@ import {
 	UnsignedInt248Type,
 	Vector2,
 	WebGLRenderTarget
-} from "three";
+} = window.THREE;
 
 import { Timer } from "./Timer.js";
 import { ClearMaskPass } from "../passes/ClearMaskPass.js";

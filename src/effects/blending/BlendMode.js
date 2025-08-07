@@ -1,4 +1,4 @@
-import { EventDispatcher, Uniform } from "three";
+const { EventDispatcher, Uniform } = window.THREE;
 import { BlendFunction } from "../../enums/BlendFunction.js";
 
 import add from "./glsl/add.frag";

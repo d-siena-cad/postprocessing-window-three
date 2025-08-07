@@ -1,4 +1,4 @@
-import {
+const {
 	CubeTextureLoader,
 	LoadingManager,
 	PerspectiveCamera,
@@ -6,7 +6,7 @@ import {
 	SRGBColorSpace,
 	VSMShadowMap,
 	WebGLRenderer
-} from "three";
+} = window.THREE;
 
 import {
 	BlendFunction,

@@ -1,4 +1,4 @@
-import { Color, Uniform, Vector2, Vector4 } from "three";
+const { Color, Uniform, Vector2, Vector4 } = window.THREE;
 import { ASCIITexture } from "../textures/ASCIITexture.js";
 import { Effect } from "./Effect.js";
 

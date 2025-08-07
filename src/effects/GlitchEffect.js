@@ -1,4 +1,4 @@
-import { NearestFilter, RepeatWrapping, RGBAFormat, Uniform, Vector2 } from "three";
+const { NearestFilter, RepeatWrapping, RGBAFormat, Uniform, Vector2 } = window.THREE;
 import { GlitchMode } from "../enums/GlitchMode.js";
 import { NoiseTexture } from "../textures/NoiseTexture.js";
 import { Effect } from "./Effect.js";

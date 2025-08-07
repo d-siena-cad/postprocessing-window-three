@@ -1,5 +1,5 @@
 import test from "ava";
-import { Scene } from "three";
+const { Scene } = window.THREE;
 import { SelectiveBloomEffect } from "postprocessing";
 
 test("can be created and destroyed", t => {

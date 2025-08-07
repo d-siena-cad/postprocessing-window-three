@@ -1,4 +1,4 @@
-import {
+const {
 	Data3DTexture,
 	FloatType,
 	HalfFloatType,
@@ -7,7 +7,7 @@ import {
 	SRGBColorSpace,
 	Uniform,
 	Vector3
-} from "three";
+} = window.THREE;
 
 import { BlendFunction } from "../enums/BlendFunction.js";
 import { LookupTexture } from "../textures/lut/LookupTexture.js";

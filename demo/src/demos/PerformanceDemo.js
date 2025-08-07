@@ -1,4 +1,4 @@
-import {
+const {
 	CubeTextureLoader,
 	CylinderGeometry,
 	Mesh,
@@ -12,7 +12,7 @@ import {
 	TextureLoader,
 	TorusGeometry,
 	Vector3
-} from "three";
+} = window.THREE;
 
 import { calculateVerticalFoV } from "three-demo";
 import { ProgressManager } from "../utils/ProgressManager";

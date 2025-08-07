@@ -1,4 +1,4 @@
-import { Loader, LoadingManager } from "three";
+const { Loader, LoadingManager } = window.THREE;
 
 import searchImageDataURL from "../textures/smaa/searchImageDataURL.js";
 import areaImageDataURL from "../textures/smaa/areaImageDataURL.js";

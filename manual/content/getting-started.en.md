@@ -63,7 +63,7 @@ Install [node.js](https://nodejs.org) and use the command `npm run build` to gen
 Postprocessing extends the common rendering workflow with fullscreen image manipulation tools. The following WebGL attributes should be used for an optimal workflow:
 
 ```ts
-import { WebGLRenderer } from "three";
+const { WebGLRenderer } = window.THREE;
 
 const renderer = new WebGLRenderer({
 	powerPreference: "high-performance",
@@ -123,7 +123,7 @@ New applications should follow a [linear workflow](https://docs.unity3d.com/Manu
 Postprocessing uses `UnsignedByteType` sRGB frame buffers to store intermediate results due to good hardware support and resource efficiency. This is a compromise because linear results normally require at least 12 bits per color channel to prevent [color degradation and banding](https://blog.demofox.org/2018/03/10/dont-convert-srgb-u8-to-linear-u8/). With low precision sRGB buffers, colors will be clamped to [0.0, 1.0] and information loss will shift to the darker spectrum which leads to noticable banding in dark scenes. Linear, high precision `HalfFloatType` buffers don't have these issues and are the preferred option for HDR-like workflows on desktop devices. You can enable high precision frame buffers like so:
 
 ```ts
-import { HalfFloatType } from "three";
+const { HalfFloatType } = window.THREE;
 
 const geoPass = new GeometryPass(scene, camera, {
 	frameBufferType: HalfFloatType

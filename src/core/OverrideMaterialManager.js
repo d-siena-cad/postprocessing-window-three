@@ -1,4 +1,4 @@
-import { BackSide, DoubleSide, FrontSide, ShaderMaterial } from "three";
+const { BackSide, DoubleSide, FrontSide, ShaderMaterial } = window.THREE;
 
 /**
  * A flag that indicates whether the override material workaround is enabled.

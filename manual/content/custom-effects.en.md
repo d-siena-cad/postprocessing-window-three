@@ -31,7 +31,7 @@ vec4 mainImage(in vec4 inputColor, in vec2 uv, in GData data) {
 __CustomEffect.js__
 
 ```js
-import { Uniform, Vector3 } from "three";
+const { Uniform, Vector3 } = window.THREE;
 import { Effect } from "postprocessing";
 
 // Use a bundler plugin like esbuild-plugin-glsl to import shaders as text.

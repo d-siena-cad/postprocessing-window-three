@@ -1,4 +1,4 @@
-import {
+const {
 	AmbientLight,
 	BoxGeometry,
 	DirectionalLight,
@@ -8,7 +8,7 @@ import {
 	PlaneGeometry,
 	PointLight,
 	SphereGeometry
-} from "three";
+} = window.THREE;
 
 /**
  * Creates lights.

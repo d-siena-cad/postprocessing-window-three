@@ -1,11 +1,11 @@
-import {
+const {
 	Color,
 	Mesh,
 	MeshBasicMaterial,
 	PerspectiveCamera,
 	SphereGeometry,
 	Vector3
-} from "three";
+} = window.THREE;
 
 import { SpatialControls } from "spatial-controls";
 import { calculateVerticalFoV } from "three-demo";

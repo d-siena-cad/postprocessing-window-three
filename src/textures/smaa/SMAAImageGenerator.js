@@ -1,4 +1,4 @@
-import { LoadingManager } from "three";
+const { LoadingManager } = window.THREE;
 import { RawImageData } from "../RawImageData.js";
 import workerProgram from "../../../temp/smaa/worker.txt";
 

@@ -1,4 +1,4 @@
-import { UnsignedByteType, WebGLRenderTarget } from "three";
+const { UnsignedByteType, WebGLRenderTarget } = window.THREE;
 import { Resolution } from "../core/Resolution.js";
 import { LuminanceMaterial } from "../materials/LuminanceMaterial.js";
 import { Pass } from "./Pass.js";

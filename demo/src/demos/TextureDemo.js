@@ -1,10 +1,10 @@
-import {
+const {
 	Color,
 	PerspectiveCamera,
 	RepeatWrapping,
 	SRGBColorSpace,
 	TextureLoader
-} from "three";
+} = window.THREE;
 
 import { SpatialControls } from "spatial-controls";
 import { calculateVerticalFoV } from "three-demo";

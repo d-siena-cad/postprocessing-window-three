@@ -1,4 +1,4 @@
-import { CanvasTexture, RepeatWrapping } from "three";
+const { CanvasTexture, RepeatWrapping } = window.THREE;
 
 /**
  * An ASCII character lookup texture.

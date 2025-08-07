@@ -1,4 +1,4 @@
-import {
+const {
 	BasicDepthPacking,
 	Color,
 	NotEqualDepth,
@@ -6,7 +6,7 @@ import {
 	RGBADepthPacking,
 	SRGBColorSpace,
 	WebGLRenderTarget
-} from "three";
+} = window.THREE;
 
 import { Selection } from "../core/Selection.js";
 import { DepthTestStrategy } from "../enums/DepthTestStrategy.js";
